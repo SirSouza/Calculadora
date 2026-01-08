@@ -13,7 +13,7 @@ body {
 .container {
 	width: 100dvw;
 	height: 100dvh;
-	background-color: aqua;
+	background-color: rgb(143, 143, 143);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,9 +49,14 @@ body {
   border: none;
   font-size: 38px;
   max-width: 100%;
-  padding-top: 75px;
   outline: none;
-  word-wrap: break-word;
+  overflow: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow-wrap: break-word;
+  word-break: break-all;
+
 }
 
 .resultContainer {
