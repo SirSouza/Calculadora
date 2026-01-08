@@ -17,16 +17,15 @@
 			<div class="calculator">
 				<div class="containerDisplay">
 					<div class="inputContainer">
-
-						<!-- <input type="text" placeholder="0"  wrap="hard"/> -->
-						<div id="display" contenteditable="true">0</div>
-
+						<div id="display">0</div>
 					</div>
-					<div class="resultContainer">resultado</div>
+					<div class="resultContainer"></div>
 				</div>
 				<div class="containerButtons">
 					<div class="buttonsCalculator">
-						<button class="greyButtons" id="deleteButton" onclick="limpar()">AC</button>
+						<button class="greyButtons" id="deleteButton" onclick="limpar()">
+							AC
+						</button>
 						<button class="greyButtons" id="sqrt" onclick="digitar('√')">√</button>
 						<button class="greyButtons" id="porcent" onclick="digitar('%')">%</button>
 						<button class="blueButtons" id="divide" onclick="digitar('÷')">÷</button>
@@ -48,12 +47,12 @@
 
 						<button class="redButtons" id="zero" onclick="digitar('0')">0</button>
 						<button class="redButtons" id="dot" onclick="digitar('.')">.</button>
-						<button class="blueButtons" id="equal" onclick="digitar('=')">=</button>
+						<button class="blueButtons" id="equal" onclick="calcular()">=</button>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<script href="assets/script/script.js"></script>
+		<script src="./assets/script/script.js"></script>
 	</body>
 </html>
